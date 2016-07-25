@@ -177,6 +177,8 @@ declare namespace mapboxgl {
 		bearingSnap?: number;
 
 		bearing?: number;
+		
+		pitch?: number;
 
 		/** Style class names with which to initialize the map */
 		classes?: string[];
